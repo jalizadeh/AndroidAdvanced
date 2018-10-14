@@ -19,7 +19,7 @@ public class Activity_Main extends AppCompatActivity {
 
 
 
-        //video 01
+        //video 02
         Button btnV01 = (Button) findViewById(R.id.btnV01);
         btnV01.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,7 +31,7 @@ public class Activity_Main extends AppCompatActivity {
 
 
 
-        //video 02,3
+        //video 3,4,5
         Button btnV02 = (Button) findViewById(R.id.btnV02);
         btnV02.setOnClickListener(new View.OnClickListener() {
             @Override
