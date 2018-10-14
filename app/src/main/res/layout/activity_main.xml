@@ -15,4 +15,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
         android:text="#1 - Fragments" />
+
+
+    <Button
+        android:id="@+id/btnV02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="#2 - Top and Bottom AppBars" />
 </RelativeLayout>

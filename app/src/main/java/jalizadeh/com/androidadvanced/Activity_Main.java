@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import jalizadeh.com.androidadvanced.Fragments_Video01.Fragments_MainActivity;
+import jalizadeh.com.androidadvanced.TopAndBottomAppBars.Activity_TopAndBottomAppBars;
 
 // https://www.youtube.com/watch?v=B_10GhBgt10&list=PLgCYzUzKIBE-1BsxlQTIPF7B95ey34jUF
 public class Activity_Main extends AppCompatActivity {
@@ -24,6 +25,18 @@ public class Activity_Main extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Activity_Main.this, Fragments_MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+        //video 02,3
+        Button btnV02 = (Button) findViewById(R.id.btnV02);
+        btnV02.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity_Main.this, Activity_TopAndBottomAppBars.class);
                 startActivity(intent);
             }
         });

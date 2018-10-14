@@ -16,8 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Fragments_Video01.Fragments_MainActivity"/>
-        <activity android:name=".Fragments_Video01.Fragments_SecondActivity"/>
+        <activity android:name=".Fragments_Video01.Fragments_MainActivity" />
+        <activity android:name=".Fragments_Video01.Fragments_SecondActivity" />
+
+        <activity android:name=".TopAndBottomAppBars.Activity_TopAndBottomAppBars"
+            android:theme="@style/Video02"
+            ></activity>
     </application>
 
 </manifest>
