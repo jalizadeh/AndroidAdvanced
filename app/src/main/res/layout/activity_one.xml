@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".TopAndBottomAppBars.Activity_TopAndBottomAppBars">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--top RL-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/topRL">
+
+
+        <!--add anything later-->
+
+
+
+    </RelativeLayout>
+
+
+    <!--middle RL-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/midRL"
+        android:layout_below="@id/topRL"
+        android:layout_above="@id/botRL">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="94dp"
+            android:text="Activity #1"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+
+    <!--bottom RL-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/botRL"
+        android:layout_alignParentBottom="true">
+
+        <!--video #6-->
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/bottomNavigationView"
+            app:menu="@menu/menu_bottom_navigation">
+
+            <!--if you need to remove titles-->
+            <!--app:labelVisibilityMode="unlabeled"-->
+
+        </android.support.design.widget.BottomNavigationView>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
