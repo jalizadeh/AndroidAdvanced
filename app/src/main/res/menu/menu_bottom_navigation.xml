@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_android"
+        android:title="Android"
+        android:icon="@drawable/ic_android"
+        />
+
+
+    <item
+        android:id="@+id/ic_description"
+        android:title="Description"
+        android:icon="@drawable/ic_description"
+        />
+
+    <item
+        android:id="@+id/ic_apps"
+        android:title="Apps"
+        android:icon="@drawable/ic_apps"
+        />
+
+    <item
+        android:id="@+id/ic_extension"
+        android:title="Extension"
+        android:icon="@drawable/ic_extension"
+        />
+
+    <item
+        android:id="@+id/ic_local_cafe"
+        android:title="Cafe"
+        android:icon="@drawable/ic_local_cafe"
+        />
+</menu>
