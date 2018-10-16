@@ -1,0 +1,83 @@
+package jalizadeh.com.androidadvanced.RetrofitJSON.Model.Children;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+public class Data {
+
+    @SerializedName("contest_mode")
+    @Expose
+    private String contest_mode;
+
+    @SerializedName("subreddit")
+    @Expose
+    private String subreddit;
+
+    @SerializedName("author")
+    @Expose
+    private String author;
+
+    @SerializedName("title")
+    @Expose
+    private String title;
+
+
+
+    @SerializedName("id")
+    @Expose
+    private String id;
+
+
+
+    public String getContest_mode() {
+        return contest_mode;
+    }
+
+    public void setContest_mode(String contest_mode) {
+        this.contest_mode = contest_mode;
+    }
+
+    public String getSubreddit() {
+        return subreddit;
+    }
+
+    public void setSubreddit(String subreddit) {
+        this.subreddit = subreddit;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Data{" +
+                "contest_mode='" + contest_mode + '\'' +
+                ", subreddit='" + subreddit + '\'' +
+                ", author='" + author + '\'' +
+                ", title='" + title + '\'' +
+                ", id='" + id + '\'' +
+                '}';
+    }
+}

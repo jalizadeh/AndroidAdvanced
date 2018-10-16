@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="jalizadeh.com.androidadvanced">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,10 +23,11 @@
         <activity
             android:name=".TopAndBottomAppBars.Activity_TopAndBottomAppBars"
             android:theme="@style/Video02" />
-        <activity android:name=".TopAndBottomAppBars.Activity_One"></activity>
-        <activity android:name=".TopAndBottomAppBars.Activity_Two"></activity>
-        <activity android:name=".TopAndBottomAppBars.Activity_Three"></activity>
-        <activity android:name=".TopAndBottomAppBars.Activity_Four"></activity>
+        <activity android:name=".TopAndBottomAppBars.Activity_One" />
+        <activity android:name=".TopAndBottomAppBars.Activity_Two" />
+        <activity android:name=".TopAndBottomAppBars.Activity_Three" />
+        <activity android:name=".TopAndBottomAppBars.Activity_Four" />
+        <activity android:name=".RetrofitJSON.Activity_Retrofit"></activity>
     </application>
 
 </manifest>
