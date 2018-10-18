@@ -50,7 +50,7 @@ public class MyCustomDialogFragment extends DialogFragment {
             public void onClick(View view) {
 
                 String input = etInput.getText().toString();
-                
+
                 if(! input.equals("")){
 
                     //easiest way, BUT not good

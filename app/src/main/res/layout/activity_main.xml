@@ -44,4 +44,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="223dp"
         android:text="#12 - DialogFragment" />
+
+
+    <Button
+        android:id="@+id/btnV14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnV10"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="337dp"
+        android:text="#14 - RecyclerView" />
 </RelativeLayout>
