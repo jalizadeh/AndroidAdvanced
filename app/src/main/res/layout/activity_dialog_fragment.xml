@@ -5,43 +5,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Main">
+    tools:context=".DialogFragment.Activity_DialogFragment">
 
-    <Button
-        android:id="@+id/btnV01"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
-        android:text="#1 - Fragments" />
-
+        android:layout_marginTop="19dp"
+        android:text="This is an activity" />
 
     <Button
-        android:id="@+id/btnV02"
+        android:id="@+id/btnOpenDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
-        android:text="#2 - Top and Bottom AppBars" />
+        android:layout_marginTop="55dp"
+        android:text="Open Dialog" />
 
-    <Button
-        android:id="@+id/btnV10"
+    <TextView
+        android:id="@+id/tvFragmentResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="147dp"
-        android:text="#10 - Retrofit JSON" />
-
-
-    <Button
-        android:id="@+id/btnV12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="223dp"
-        android:text="#12 - DialogFragment" />
+        android:layout_marginTop="150dp"
+        android:text="waiting for data from fragment..." />
 </RelativeLayout>
