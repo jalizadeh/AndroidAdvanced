@@ -29,7 +29,9 @@
         <activity android:name=".TopAndBottomAppBars.Activity_Four" />
         <activity android:name=".RetrofitJSON.Activity_Retrofit" />
         <activity android:name=".DialogFragment.Activity_DialogFragment" />
-        <activity android:name=".RecyclerView.Activity_RecyclerView"></activity>
+        <activity android:name=".RecyclerView.Activity_RecyclerView" />
+        <activity android:name=".RecyclerViewWithGallery.Activity_RecyclerViewWithGallery" />
+        <activity android:name=".RecyclerViewWithGallery.Activity_Gallery"></activity>
     </application>
 
 </manifest>

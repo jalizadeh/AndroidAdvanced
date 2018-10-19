@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Main">
+    tools:context=".Activity_Main"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btnV01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
         android:text="#1 - Fragments" />
 
 
@@ -21,18 +19,12 @@
         android:id="@+id/btnV02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"
         android:text="#2 - Top and Bottom AppBars" />
 
     <Button
         android:id="@+id/btnV10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="147dp"
         android:text="#10 - Retrofit JSON" />
 
 
@@ -40,9 +32,6 @@
         android:id="@+id/btnV12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="223dp"
         android:text="#12 - DialogFragment" />
 
 
@@ -50,8 +39,12 @@
         android:id="@+id/btnV14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/btnV10"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="337dp"
         android:text="#14 - RecyclerView" />
-</RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnV15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#15 - RecyclerView With Gallery" />
+</LinearLayout>

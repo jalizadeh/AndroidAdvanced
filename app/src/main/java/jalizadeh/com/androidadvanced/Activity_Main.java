@@ -9,6 +9,7 @@ import android.widget.Button;
 import jalizadeh.com.androidadvanced.DialogFragment.Activity_DialogFragment;
 import jalizadeh.com.androidadvanced.Fragments_Video01.Fragments_MainActivity;
 import jalizadeh.com.androidadvanced.RecyclerView.Activity_RecyclerView;
+import jalizadeh.com.androidadvanced.RecyclerViewWithGallery.Activity_RecyclerViewWithGallery;
 import jalizadeh.com.androidadvanced.RetrofitJSON.Activity_Retrofit;
 import jalizadeh.com.androidadvanced.TopAndBottomAppBars.Activity_TopAndBottomAppBars;
 
@@ -74,6 +75,17 @@ public class Activity_Main extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Activity_Main.this, Activity_RecyclerView.class);
+                startActivity(intent);
+            }
+        });
+
+
+        //video 14
+        Button btnV15 = (Button) findViewById(R.id.btnV15);
+        btnV15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Activity_Main.this, Activity_RecyclerViewWithGallery.class);
                 startActivity(intent);
             }
         });
